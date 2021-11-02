@@ -41,7 +41,7 @@ const AboutUs = ({ data_header }) => {
       >
         <img
           className="w-full "
-          src="https://rosemarydn.com/images/upper.png"
+          src="/images/upper.png"
         />
         <div className="leading-[ 22.5px] font-normal">
           <h5 className="text-center">
@@ -55,7 +55,7 @@ const AboutUs = ({ data_header }) => {
         </div>
         <img
           className="w-full"
-          src="https://rosemarydn.com/images/under.png"
+          src="/images/lower.png"
         />
       </div>
     </Layout>
