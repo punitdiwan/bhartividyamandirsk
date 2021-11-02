@@ -93,21 +93,21 @@ const Header = ({header_data}) => {
                     <li className="border-b border-gray-700 hover:border-b hover:border-black ">
                       <Link href="/DirectorMessage">
                         <a className="block px-4 py-2 whitespace-no-wrap bg-[#272d57] hover:no-underline text-yellow-50 hover:bg-white hover:text-black">
-                          Director Message
+                          Director&nbsp;Message
                         </a>
                       </Link>
                     </li>
                     <li className="border-b border-gray-700 hover:border-b hover:border-black ">
                       <Link href="/ManagementDesk">
                         <a className="block px-4 py-2 whitespace-no-wrap bg-[#272d57] hover:no-underline text-yellow-50 hover:bg-white hover:text-black">
-                          Management Desk
+                          Management&nbsp;Message
                         </a>
                       </Link>
                     </li>
                     <li className="border-b border-gray-700 ">
                       <Link href="/PrincipalMessage">
                         <a className="block px-4 py-2 whitespace-no-wrap bg-[#272d57] hover:no-underline text-yellow-50 hover:bg-white hover:text-black">
-                          Principal Messagem
+                          Principal&nbsp;Message
                         </a>
                       </Link>
                     </li>
@@ -132,7 +132,7 @@ const Header = ({header_data}) => {
                         className="block px-4 py-2 whitespace-no-wrap bg-[#272d57] text-yellow-50 hover:no-underline hover:bg-white hover:text-black"
                         href="/AdmissionProcedure"
                       >
-                        Admission Procedure
+                        Admission&nbsp;Procedure
                       </a>
                     </li>
                     <li className="border-b border-gray-700 hover:border-b hover:border-black ">
@@ -164,11 +164,11 @@ const Header = ({header_data}) => {
                 Contact us
               </a>
               </Link>
-              <Link  href="#">
-              <a
+              <Link  href="https://cms.schoolscoop.co.in/admin/#/login?project=bhartividyamandirsk">
+              <a target="_blank"
                 className="block px-2 py-2 mt-2 text-sm leading-none text-center text-white bg-red-500 border rounded lg:ml-28 lg:inline-block hover:border-transparent lg:mt-0"
               >
-                Login{" "}
+                Login 
                 
               </a>
               </Link>
