@@ -27,7 +27,7 @@ const Header = ({ header_data }) => {
           <img
             className="h-20 w-15 md:mr-10 "
             src={header_data?.data ? header_data?.data[0]?.logo?.data?.full_url.replace("http://", "https://") : "https://cms.maitretech.com/uploads/bhartividyamandirsk/originals/a75ae161-3d37-4718-b0c2-67571f031660.png"}
-          //  src="https://rosemarydn.com/images/logo.png"
+          //  src="https://rosemarydn.com/images/logo.png"     
           />
           <div className="mt-1 text-white item-center ml-1 ">
             <span className="font-serif text-xl tracking-normal sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl" >
